@@ -1,0 +1,35 @@
+{
+  "context": "client",
+  "identifier": "com.pa.YOURNAME.MODNAME",
+  "display_name": "New Galactic War Cards - CHANGE THIS",
+  "description": "Adds new cards to Galactic War. - DESCRIBE THEM/THE THEME",
+  "author": "YOUR NAME HERE",
+  "version": "#.#.#",
+  "build": "124667",
+  "date": "yyyy-mm-dd",
+  "signature": " ",
+  "forum": "https://steamcommunity.com/app/386070/discussions/0/THREAD_ID/",
+  "category": ["titans", "gw", "card"],
+  "icon": "SOME_PUBLIC_URL_HERE",
+  "scenes": {
+    "gw_play": [
+      "coui://ui/mods/com.pa.YOURNAME.MODNAME/start_cards.js",
+      "coui://ui/mods/com.pa.YOURNAME.MODNAME/tech_cards.js",
+      "coui://ui/mods/com.pa.YOURNAME.MODNAME/decks.js",
+      "coui://ui/mods/com.pa.YOURNAME.MODNAME/specs.js"
+    ],
+    "gw_start": [
+      "coui://ui/mods/com.pa.YOURNAME.MODNAME/start_cards.js",
+      "coui://ui/mods/com.pa.YOURNAME.MODNAME/decks.js"
+    ],
+    "gw_coop_per_player_loadout": [
+      "coui://ui/mods/com.pa.YOURNAME.MODNAME/start_cards.js",
+      "coui://ui/mods/com.pa.YOURNAME.MODNAME/tech_cards.js",
+      "coui://ui/mods/com.pa.YOURNAME.MODNAME/decks.js"
+    ]
+  },
+  "priority": 100,
+  "titansOnly": true,
+  "galacticWarMod": false,
+  "dependencies": ["com.pa.quitch.gwaioverhaul"]
+}
